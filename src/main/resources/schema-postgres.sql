@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS processors;
+
+
+CREATE TABLE processors (id   SERIAL,name VARCHAR NOT NULL UNIQUE,price  SMALLINT)
