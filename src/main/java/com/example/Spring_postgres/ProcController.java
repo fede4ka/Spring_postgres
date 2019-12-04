@@ -14,7 +14,7 @@ public class ProcController {
     private ProcServiceInterface Service;
 
     @GetMapping("/showAll")
-    public String findCities(Model model) {
+    public String showAllproccessors(Model model) {
 
         var procs = (List<Proc>) Service.findAll();
 
