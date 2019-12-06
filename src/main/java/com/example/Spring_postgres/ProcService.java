@@ -14,9 +14,7 @@ private ProcRepository repository;
 
     @Override
     public List<Proc> findAll() {
-
         var proccessors = (List<Proc>) repository.findAll();
-
         return proccessors;
     }
 }
